@@ -1,0 +1,19 @@
+{
+  "name": "api-bedu",
+  "version": "1.0.0",
+  "description": "Proyecto para acreditar el modulo 4 de node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zedrick-D/API-Bedu.git"
+  },
+  "author": "ALberto de León",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zedrick-D/API-Bedu/issues"
+  },
+  "homepage": "https://github.com/Zedrick-D/API-Bedu#readme"
+}
