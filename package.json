@@ -4,16 +4,18 @@
   "description": "Proyecto para acreditar el modulo 4 de node.js",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Zedrick-D/API-Bedu.git"
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
   },
   "author": "ALberto de León",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Zedrick-D/API-Bedu/issues"
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.2",
+    "sequelize": "^6.33.0"
   },
-  "homepage": "https://github.com/Zedrick-D/API-Bedu#readme"
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
